@@ -1,0 +1,17 @@
+{
+  "name": "bookcart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 40000"
+  },
+  "keywords": [],
+  "author": "Elma Vrebac-Pasic",
+  "license": "ISC",
+  "description": "Book Cart task",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.28.1"
+  }
+}
