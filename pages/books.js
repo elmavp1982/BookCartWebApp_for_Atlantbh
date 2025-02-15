@@ -32,11 +32,11 @@ class BooksPage {
     
                 // Click on the found element
                 await firstBook.click();
-                console.log("✅ Kliknuto na dugme 'Add to Cart'");
+                console.log("✅ Clicked the 'Add to Cart' button");
                 break;  // If the click is successful, break the loop
             } catch (error) {
                 if (error.name === "StaleElementReferenceError") {
-                    console.log("⚠️ StaleElementReferenceError - pokušavam ponovo...");
+                    console.log("⚠️ StaleElementReferenceError - trying again...");
                 } else {
                     throw error;  // If it is a different error, report it
                 }
